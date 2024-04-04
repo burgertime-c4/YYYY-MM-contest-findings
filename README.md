@@ -1,6 +1,7 @@
 # [Sponsorname] Audit
 
-# [GET LINKED](../../issues?q=is%3Aopen+label%3Abug+is%3Aissue+-label%3Aunsatisfactory+-label%3A%22insufficient+quality+report%22+-label%3A%22sponsor+acknowledged%22+-label%3A%22sponsor+confirmed%22+-label%3A%22sponsor+disputed%22+-label%3A%22judge+review+requested%22+-label%3A%22QA+%28Quality+Assurance%29%22+-label%3A%22G+%28Gas+Optimization%29%22)
+Audit findings are submitted to this repo
+
 
 Unless otherwise discussed, this repo will be made public after audit completion, sponsor review, judging, and issue mitigation window.
 
@@ -8,7 +9,7 @@ Unless otherwise discussed, this repo will be made public after audit completion
 
 ---
 
-## Audit findings are submitted to this repo
+# Review phase 
 
 Sponsors have three critical tasks in the audit process:
 
@@ -16,15 +17,25 @@ Sponsors have three critical tasks in the audit process:
 2. Weigh in on severity.
 3. Share your mitigation of findings.
 
+## [GET LINKED](../../issues?q=is%3Aopen+label%3Abug+is%3Aissue+-label%3Aunsatisfactory+-label%3A%22insufficient+quality+report%22+-label%3A%22sponsor+acknowledged%22+-label%3A%22sponsor+confirmed%22+-label%3A%22sponsor+disputed%22+-label%3A%22judge+review+requested%22+-label%3A%22QA+%28Quality+Assurance%29%22+-label%3A%22G+%28Gas+Optimization%29%22)
+
 Let's walk through each of these.
+  
+# Warden submissions
 
-## High and Medium Risk Issues
-
+### High or Medium risk findings
 Wardens submit issues without seeing each other's submissions, so keep in mind that there will always be findings that are duplicates. For all issues labeled `3 (High Risk)` or `2 (Medium Risk)`, these have been pre-sorted for you so that there is only one primary issue open per unique finding. All duplicates have been labeled `duplicate`, linked to a primary issue, and closed.
 
-Judges have the ultimate discretion in determining validity and severity of issues, as well as whether/how issues are considered duplicates. However, sponsor input is a significant criterion.
 
-### Respond to issues
+### QA reports, Gas reports, and Analyses
+
+All warden submissions in these three categories are submitted as bulk listings of issues and recommendations:
+
+- **[QA reports](https://docs.code4rena.com/roles/wardens/judging-criteria#qa-reports-low-non-critical)** include *all* low severity and non-critical findings from an individual warden.
+- **[Gas reports](https://docs.code4rena.com/roles/wardens/judging-criteria#gas-reports)** include *all* gas optimization recommendations from an individual warden.
+- **[Analyses](https://docs.code4rena.com/roles/sponsors#analysis-pool)** contain high-level advice and review of the code: the "forest" to individual findings' "trees.”
+
+## Respond to issues
 
 For each High or Medium risk finding that appears in the dropdown at the top of the chrome extension, please label as one of these:
 
@@ -42,13 +53,7 @@ If you believe a finding is technically correct but disagree with the listed sev
 
 For a detailed breakdown of severity criteria and how to estimate risk, please refer to [the judging criteria in our documentation](https://docs.code4rena.com/roles/wardens/judging-criteria#estimating-risk-tl-dr).
 
-## QA reports, Gas reports, and Analyses
-
-All warden submissions in these three categories are submitted as bulk listings of issues and recommendations:
-
-- **[QA reports](https://docs.code4rena.com/roles/wardens/judging-criteria#qa-reports-low-non-critical)** include *all* low severity and non-critical findings from an individual warden.
-- **[Gas reports](https://docs.code4rena.com/roles/wardens/judging-criteria#gas-reports)** include *all* gas optimization recommendations from an individual warden.
-- **[Analyses](https://docs.code4rena.com/roles/sponsors#analysis-pool)** contain high-level advice and review of the code: the "forest" to individual findings' "trees.”
+Judges have the ultimate discretion in determining validity and severity of issues, as well as whether/how issues are considered duplicates. However, sponsor input is a significant criterion.
 
 **For QA reports, Gas reports, and Analyses, sponsors are not required to weigh in on severity or risk level.** We ask that sponsors: 
 
