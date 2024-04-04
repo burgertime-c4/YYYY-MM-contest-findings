@@ -56,7 +56,7 @@ For a detailed breakdown of severity criteria and how to estimate risk, please r
 
 Judges have the ultimate discretion in determining validity and severity of issues, as well as whether/how issues are considered duplicates. However, sponsor input is a significant criterion.
 
-## QA reports, Gas reports, and Analyses 
+### QA reports, Gas reports, and Analyses 
 Sponsors are not required to weigh in on severity or risk level for QA reports, Gas reports, and Analyses. We ask that sponsors: 
 
 - Leave a comment for the judge on any reports you consider to be particularly high quality. (These reports will be awarded on a curve.)
