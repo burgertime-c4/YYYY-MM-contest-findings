@@ -17,12 +17,12 @@ Sponsors have three critical tasks in the audit process:
 2. Weigh in on severity.
 3. Share your mitigation of findings.
 
-## [GET LINKED](../../issues?q=is%3Aopen+label%3Abug+is%3Aissue+-label%3Aunsatisfactory+-label%3A%22insufficient+quality+report%22+-label%3A%22sponsor+acknowledged%22+-label%3A%22sponsor+confirmed%22+-label%3A%22sponsor+disputed%22+-label%3A%22judge+review+requested%22+-label%3A%22QA+%28Quality+Assurance%29%22+-label%3A%22G+%28Gas+Optimization%29%22)
+### [GET LINKED](../../issues?q=is%3Aopen+label%3Abug+is%3Aissue+-label%3Aunsatisfactory+-label%3A%22insufficient+quality+report%22+-label%3A%22sponsor+acknowledged%22+-label%3A%22sponsor+confirmed%22+-label%3A%22sponsor+disputed%22+-label%3A%22judge+review+requested%22+-label%3A%22QA+%28Quality+Assurance%29%22+-label%3A%22G+%28Gas+Optimization%29%22)
 
-Let's walk through each of these.
-  
-# Warden submissions
 
+<hr>
+  <details>
+  <summary><h2>Warden submission types</h2> (expand to read more)</summary>
 ### High or Medium risk findings
 Wardens submit issues without seeing each other's submissions, so keep in mind that there will always be findings that are duplicates. For all issues labeled `3 (High Risk)` or `2 (Medium Risk)`, these have been pre-sorted for you so that there is only one primary issue open per unique finding. All duplicates have been labeled `duplicate`, linked to a primary issue, and closed.
 
@@ -34,8 +34,10 @@ All warden submissions in these three categories are submitted as bulk listings 
 - **[QA reports](https://docs.code4rena.com/roles/wardens/judging-criteria#qa-reports-low-non-critical)** include *all* low severity and non-critical findings from an individual warden.
 - **[Gas reports](https://docs.code4rena.com/roles/wardens/judging-criteria#gas-reports)** include *all* gas optimization recommendations from an individual warden.
 - **[Analyses](https://docs.code4rena.com/roles/sponsors#analysis-pool)** contain high-level advice and review of the code: the "forest" to individual findings' "trees.”
+</details>
+<hr>
 
-## Respond to issues
+## 1. Respond to issues
 
 For each High or Medium risk finding that appears in the dropdown at the top of the chrome extension, please label as one of these:
 
@@ -47,7 +49,7 @@ Add any necessary comments explaining your rationale for your evaluation of the 
 
 **Note that when the repo is public, after all issues are mitigated, wardens will read these comments; they may also be included in your C4 audit report.**
 
-### Weigh in on severity 
+## 2. Weigh in on severity 
 
 If you believe a finding is technically correct but disagree with the listed severity, select the `disagree with severity` option, along with a comment indicating your reasoning for the judge to review. You may also add questions for the judge in the comments. (Note: even if you `disagree with severity`, please still choose one of the `sponsor confirmed` or `sponsor acknowledged` options as well.)
 
@@ -60,11 +62,11 @@ Judges have the ultimate discretion in determining validity and severity of issu
 - Leave a comment for the judge on any reports you consider to be particularly high quality. (These reports will be awarded on a curve.)
 - **For QA and Gas reports only:** add the `sponsor disputed` label to any reports that you think should be *completely* disregarded by the judge, i.e. the report contains no valid findings at all.
 
-## Once labelling is complete
+### Once labelling is complete
 
 When you have finished labelling findings, drop the C4 team a note in your private Discord backroom channel and let us know you've completed the sponsor review process. At this point, we will pass the repo over to the judge to review your feedback while you work on mitigations.  
 
-## Share your mitigation of findings
+## 3. Share your mitigation of findings
 
 *Note: this section does not need to be completed in order to finalize judging. You can continue work on mitigations while the judge finalizes their decisions and even beyond that. Ultimately we won't publish the final audit report until you give us the OK.*
 
