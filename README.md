@@ -1,7 +1,6 @@
 # [Sponsorname] Audit
 
-Audit findings are submitted to this repo
-
+Audit findings are submitted to this repo.
 
 Unless otherwise discussed, this repo will be made public after audit completion, sponsor review, judging, and issue mitigation window.
 
@@ -11,14 +10,13 @@ Unless otherwise discussed, this repo will be made public after audit completion
 
 # Review phase 
 
+
+### [HMs for review →](../../issues?q=is%3Aopen+label%3Abug+is%3Aissue+-label%3Aunsatisfactory+-label%3A%22insufficient+quality+report%22+-label%3A%22sponsor+acknowledged%22+-label%3A%22sponsor+confirmed%22+-label%3A%22sponsor+disputed%22+-label%3A%22judge+review+requested%22+-label%3A%22QA+%28Quality+Assurance%29%22+-label%3A%22G+%28Gas+Optimization%29%22)
 Sponsors have three critical tasks in the audit process:
 
 1. Respond to issues.
 2. Weigh in on severity.
 3. Share your mitigation of findings.
-
-### [GET LINKED](../../issues?q=is%3Aopen+label%3Abug+is%3Aissue+-label%3Aunsatisfactory+-label%3A%22insufficient+quality+report%22+-label%3A%22sponsor+acknowledged%22+-label%3A%22sponsor+confirmed%22+-label%3A%22sponsor+disputed%22+-label%3A%22judge+review+requested%22+-label%3A%22QA+%28Quality+Assurance%29%22+-label%3A%22G+%28Gas+Optimization%29%22)
-
 
 <hr>
   <details>
@@ -39,7 +37,7 @@ All warden submissions in these three categories are submitted as bulk listings 
 
 ## 1. Respond to issues
 
-For each High or Medium risk finding that appears in the dropdown at the top of the chrome extension, please label as one of these:
+For each High or Medium risk finding that appears [in this filtered issues view](../../issues?q=is%3Aopen+label%3Abug+is%3Aissue+-label%3Aunsatisfactory+-label%3A%22insufficient+quality+report%22+-label%3A%22sponsor+acknowledged%22+-label%3A%22sponsor+confirmed%22+-label%3A%22sponsor+disputed%22+-label%3A%22judge+review+requested%22+-label%3A%22QA+%28Quality+Assurance%29%22+-label%3A%22G+%28Gas+Optimization%29%22), please label as one of these:
 
 - `sponsor confirmed`, meaning: "Yes, this is a problem and we intend to fix it."
 - `sponsor disputed`, meaning either: "We cannot duplicate this issue" or "We disagree that this is an issue at all."
@@ -57,7 +55,8 @@ For a detailed breakdown of severity criteria and how to estimate risk, please r
 
 Judges have the ultimate discretion in determining validity and severity of issues, as well as whether/how issues are considered duplicates. However, sponsor input is a significant criterion.
 
-**For QA reports, Gas reports, and Analyses, sponsors are not required to weigh in on severity or risk level.** We ask that sponsors: 
+## QA reports, Gas reports, and Analyses 
+Sponsors are not required to weigh in on severity or risk level for QA reports, Gas reports, and Analyses. We ask that sponsors: 
 
 - Leave a comment for the judge on any reports you consider to be particularly high quality. (These reports will be awarded on a curve.)
 - **For QA and Gas reports only:** add the `sponsor disputed` label to any reports that you think should be *completely* disregarded by the judge, i.e. the report contains no valid findings at all.
