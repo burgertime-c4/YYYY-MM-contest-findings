@@ -20,7 +20,7 @@ Sponsors have three critical tasks in the audit process:
 
 <hr>
   <details>
-  <summary><h2>Warden submission types</h2> (expand to read more)</summary>
+  <summary>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<h2>Warden submission types</h2> (expand to read more)</summary>
 
 ### High or Medium risk findings
 Wardens submit issues without seeing each other's submissions, so keep in mind that there will always be findings that are duplicates. For all issues labeled `3 (High Risk)` or `2 (Medium Risk)`, these have been pre-sorted for you so that there is only one primary issue open per unique finding. All duplicates have been labeled `duplicate`, linked to a primary issue, and closed.
