@@ -50,17 +50,10 @@ Add any necessary comments explaining your rationale for your evaluation of the 
 
 ## 2. Weigh in on severity 
 
-If you believe a finding is technically correct but disagree with the listed severity, select the `disagree with severity` option, along with a comment indicating your reasoning for the judge to review. You may also add questions for the judge in the comments. (Note: even if you `disagree with severity`, please still choose one of the `sponsor confirmed` or `sponsor acknowledged` options as well.)
-
-For a detailed breakdown of severity criteria and how to estimate risk, please refer to [the judging criteria in our documentation](https://docs.code4rena.com/roles/wardens/judging-criteria#estimating-risk-tl-dr).
+If you believe a finding is technically correct but disagree with the listed severity, leave a comment indicating your reasoning for the judge to review.
+For a detailed breakdown of severity criteria and how to estimate risk, please refer to the [judging criteria in our documentation](https://docs.code4rena.com/awarding/judging-criteria/severity-categorization).
 
 Judges have the ultimate discretion in determining validity and severity of issues, as well as whether/how issues are considered duplicates. However, sponsor input is a significant criterion.
-
-### QA reports, Gas reports, and Analyses 
-Sponsors are not required to weigh in on severity or risk level for QA reports, Gas reports, and Analyses. We ask that sponsors: 
-
-- Leave a comment for the judge on any reports you consider to be particularly high quality. (These reports will be awarded on a curve.)
-- **For QA and Gas reports only:** add the `sponsor disputed` label to any reports that you think should be *completely* disregarded by the judge, i.e. the report contains no valid findings at all.
 
 ### Once labelling is complete
 
