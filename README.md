@@ -44,6 +44,8 @@ For each High or Medium risk finding that appears [in this filtered issues view]
 - `sponsor disputed`, meaning either: "We cannot duplicate this issue" or "We disagree that this is an issue at all."
 - `sponsor acknowledged`, meaning: "Yes, technically the issue is correct, but we are not going to resolve it for xyz reasons."
 
+Note: Adding or changing labels other than those in this list will be automatically reverted by our bot, which will note the change in a comment on the issue. 
+
 Add any necessary comments explaining your rationale for your evaluation of the issue. 
 
 **Note that when the repo is public, after all issues are mitigated, wardens will read these comments; they may also be included in your C4 audit report.**
@@ -61,7 +63,7 @@ Judges have the ultimate discretion in determining validity and severity of issu
 
 ### QA reports, Gas reports, and Analyses
 
-### [Reports for review →](../../issues?q=is%3Aopen+label%3Abug+is%3Aissue+-label%3Aunsatisfactory+-label%3A%22insufficient+quality+report%22+-label%3A%22sponsor+acknowledged%22+-label%3A%22sponsor+confirmed%22+-label%3A%22sponsor+disputed%22+-label%3A%22judge+review+requested%22+-label%3A%22QA+%28Quality+Assurance%29%22+-label%3A%22G+%28Gas+Optimization%29%22)
+### [Reports for review →](../../issues?q=is%3Aopen+is%3Aissue+-label%3Aunsatisfactory+-label%3A%22insufficient+quality+report%22+-label%3A%22sponsor+acknowledged%22+-label%3A%22sponsor+confirmed%22+-label%3A%22sponsor+disputed%22+-label%3A%22judge+review+requested%22+label%3A%22QA+%28Quality+Assurance%29%22%2C%22G+%28Gas+Optimization%29%22%2C%22analysis-advanced%22+)
 - Leave a comment for the judge on any reports you consider to be particularly high quality. (These reports will be awarded on a curve.)
 - For QA and Gas reports only: add the sponsor `disputed label` to any reports that you think should be completely disregarded by the judge, i.e. the report contains no valid findings at all.
 
