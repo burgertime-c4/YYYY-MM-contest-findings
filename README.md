@@ -10,17 +10,15 @@ Unless otherwise discussed, this repo will be made public after audit completion
 
 # Review phase 
 
-
-### [HMs for review →](../../issues?q=is%3Aopen+label%3Abug+is%3Aissue+-label%3Aunsatisfactory+-label%3A%22insufficient+quality+report%22+-label%3A%22sponsor+acknowledged%22+-label%3A%22sponsor+confirmed%22+-label%3A%22sponsor+disputed%22+-label%3A%22judge+review+requested%22+-label%3A%22QA+%28Quality+Assurance%29%22+-label%3A%22G+%28Gas+Optimization%29%22)
 Sponsors have three critical tasks in the audit process:
 
-1. Respond to issues.
-2. Weigh in on severity.
-3. Share your mitigation of findings.
+1. [Respond to issues ↓](#1-respond-to-issues)
+2. [Weigh in on severity ↓](#2-weigh-in-on-severity))
+3. [Share your mitigation of findings ↓](#3-share-your-mitigation-of-findings)
 
 <hr>
   <details>
-  <summary>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<h2>Warden submission types</h2> (expand to read more)</summary>
+  <summary>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<h2>Types of findings</h2> (expand to read more)</summary>
 
 ### High or Medium risk findings
 Wardens submit issues without seeing each other's submissions, so keep in mind that there will always be findings that are duplicates. For all issues labeled `3 (High Risk)` or `2 (Medium Risk)`, these have been pre-sorted for you so that there is only one primary issue open per unique finding. All duplicates have been labeled `duplicate`, linked to a primary issue, and closed.
@@ -37,6 +35,8 @@ All warden submissions in these three categories are submitted as bulk listings 
 <hr>
 
 ## 1. Respond to issues
+
+### [Findings for review →](../../issues?q=is%3Aopen+label%3Abug+is%3Aissue+-label%3Aunsatisfactory+-label%3A%22insufficient+quality+report%22+-label%3A%22sponsor+acknowledged%22+-label%3A%22sponsor+confirmed%22+-label%3A%22sponsor+disputed%22+-label%3A%22judge+review+requested%22+-label%3A%22QA+%28Quality+Assurance%29%22+-label%3A%22G+%28Gas+Optimization%29%22)
 
 For each High or Medium risk finding that appears [in this filtered issues view](../../issues?q=is%3Aopen+label%3Abug+is%3Aissue+-label%3Aunsatisfactory+-label%3A%22insufficient+quality+report%22+-label%3A%22sponsor+acknowledged%22+-label%3A%22sponsor+confirmed%22+-label%3A%22sponsor+disputed%22+-label%3A%22judge+review+requested%22+-label%3A%22QA+%28Quality+Assurance%29%22+-label%3A%22G+%28Gas+Optimization%29%22), please label as one of these:
 
