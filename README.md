@@ -13,7 +13,7 @@ Unless otherwise discussed, this repo will be made public after audit completion
 Sponsors have three critical tasks in the audit process:
 
 1. [Respond to issues ↓](#1-respond-to-issues)
-2. [Weigh in on severity ↓](#2-weigh-in-on-severity))
+2. [Weigh in on severity ↓](#2-weigh-in-on-severity)
 3. [Share your mitigation of findings ↓](#3-share-your-mitigation-of-findings)
 
 <hr>
