@@ -40,9 +40,11 @@ There are two lists of curated issues to review, which filter out unsatisfactory
 &nbsp;&nbsp;&nbsp;b. Reports
 
 ### [High/Medium-risk findings for review →](../../issues?q=is%3Aopen+is%3Aissue+label%3A"2+(Med+Risk)"%2C"3+(High+Risk)"+-label%3A"unsatisfactory"%2C"insufficient+quality+report"%2C"sponsor+acknowledged"%2C"sponsor+confirmed"%2C"sponsor+disputed"+)
-The above list updates as you go. [See the original curated list →](../../issues?q=is%3Aopen+is%3Aissue+label%3A"2+(Med+Risk)"%2C"3+(High+Risk)"+-label%3A"unsatisfactory"%2C"insufficient+quality+report"%2C"sponsor+acknowledged"%2C"sponsor+confirmed"%2C"sponsor+disputed"+)
+<sup>The above list updates as you go. [See the original curated list →](../../issues?q=is%3Aopen+is%3Aissue+label%3A"2+(Med+Risk)"%2C"3+(High+Risk)"+-label%3A"unsatisfactory"%2C"insufficient+quality+report"%2C"sponsor+acknowledged"%2C"sponsor+confirmed"%2C"sponsor+disputed"+)</sup>
 
-For each curated High or Medium risk finding, please label as one of the following:
+For each curated High or Medium risk finding, please:
+
+#### 1. label as one of the following:
 
 - `sponsor confirmed`, meaning: "Yes, this is a problem and we intend to fix it."
 - `sponsor disputed`, meaning either: "We cannot duplicate this issue" or "We disagree that this is an issue at all."
@@ -54,18 +56,12 @@ Add any necessary comments explaining your rationale for your evaluation of the 
 
 **Note that when the repo is public, after all issues are mitigated, wardens will read these comments; they may also be included in your C4 audit report.**
 
-## 2. Weigh in on severity 
-
-### High and Medium risk findings
-
-### [Findings for review →](../../issues?q=is%3Aopen+label%3Abug+is%3Aissue+-label%3Aunsatisfactory+-label%3A%22insufficient+quality+report%22+-label%3A%22sponsor+acknowledged%22+-label%3A%22sponsor+confirmed%22+-label%3A%22sponsor+disputed%22+-label%3A%22judge+review+requested%22+-label%3A%22QA+%28Quality+Assurance%29%22+-label%3A%22G+%28Gas+Optimization%29%22)
+#### 2. Weigh in on severity 
 
 If you believe a finding is technically correct but disagree with the listed severity, leave a comment indicating your reasoning for the judge to review.
 For a detailed breakdown of severity criteria and how to estimate risk, please refer to the [judging criteria in our documentation](https://docs.code4rena.com/awarding/judging-criteria/severity-categorization).
 
 Judges have the ultimate discretion in determining validity and severity of issues, as well as whether/how issues are considered duplicates. However, sponsor input is a significant criterion.
-
-### QA reports, Gas reports, and Analyses
 
 ### [Reports for review →](../../issues?q=is%3Aopen+is%3Aissue+-label%3Aunsatisfactory+-label%3A%22insufficient+quality+report%22+-label%3A%22sponsor+acknowledged%22+-label%3A%22sponsor+confirmed%22+-label%3A%22sponsor+disputed%22+-label%3A%22judge+review+requested%22+label%3A%22QA+%28Quality+Assurance%29%22%2C%22G+%28Gas+Optimization%29%22%2C%22analysis-advanced%22+)
 - Leave a comment for the judge on any reports you consider to be particularly high quality. (These reports will be awarded on a curve.)
