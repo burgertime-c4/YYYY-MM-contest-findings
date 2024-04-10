@@ -1,28 +1,30 @@
-
 # [Sponsorname] Audit
 
 Audit findings are submitted to this repo.
 
 Unless otherwise discussed, this repo will be made public after audit completion, sponsor review, judging, and issue mitigation window.
 
-**Contributors to this repo:** prior to report publication, please review the [Agreements & Disclosures](/issues/1) issue.
+**Contributors to this repo:** prior to report publication, please review the [Agreements & Disclosures](https://www.notion.so/issues/1) issue.
 
 ---
-# Review phase 
 
-Sponsors have two critical tasks in the audit process:
-<var>
-1. [Respond to curated **issues** list ↓](#1-respond-to-curated-issues-list)
-2. [Respond to curated **reports** list ↓](#2-respond-to-curated-reports-list)
-3. [Share your mitigation of findings ↓](#3-share-your-mitigation-of-findings)
+# Review phase
+
+Sponsors have two critical tasks in the audit process: Reviewing the two lists of curated issues to review, which filter out unsatisfactory issues that don't require your attention, and once you have mitigated your findings, sharing those mitigations. 
+
+1. [Respond to curated **issues** list ↓](https://www.notion.so/Org-Experience-Bandaid-Readme-fcb21c741e4841d78c87ca3c859eae02?pvs=21)
+2. [Respond to curated **reports** list ↓](https://www.notion.so/Org-Experience-Bandaid-Readme-fcb21c741e4841d78c87ca3c859eae02?pvs=21)
+3. [Share your mitigation of findings ↓](https://www.notion.so/Org-Experience-Bandaid-Readme-fcb21c741e4841d78c87ca3c859eae02?pvs=21)
+
+Note: It’s important to be sure to **only review issues from the curated lists.** There are two lists of curated issues to review, which filter out unsatisfactory issues that don't require your attention.
 
 <hr>
-  <details>
-  <summary>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<h2>Types of findings</h2> (expand to read more)</summary>
+<details>
+<summary>     <h2>Types of findings</h2> (expand to read more)</summary>
 
 ### High or Medium risk findings
-Wardens submit issues without seeing each other's submissions, so keep in mind that there will always be findings that are duplicates. For all issues labeled `3 (High Risk)` or `2 (Medium Risk)`, these have been pre-sorted for you so that there is only one primary issue open per unique finding. All duplicates have been labeled `duplicate`, linked to a primary issue, and closed.
 
+Wardens submit issues without seeing each other's submissions, so keep in mind that there will always be findings that are duplicates. For all issues labeled `3 (High Risk)` or `2 (Medium Risk)`, these have been pre-sorted for you so that there is only one primary issue open per unique finding. All duplicates have been labeled `duplicate`, linked to a primary issue, and closed.
 
 ### QA reports, Gas reports, and Analyses
 
@@ -35,44 +37,46 @@ All warden submissions in these three categories are submitted as bulk listings 
 <hr>
 
 ## 1. Respond to curated issues list
-There are two lists of curated issues to review, which filter out unsatisfactory issues that don't require your attention: 
 
-&nbsp;&nbsp;&nbsp;a. High/Medium-risk findings<br/>
-&nbsp;&nbsp;&nbsp;b. Reports
+### [High/Medium-risk findings for review →](https://www.notion.so/issues?q=is%3Aopen+is%3Aissue+label%3A%222+(Med+Risk)%22%2C%223+(High+Risk)%22+-label%3A%22unsatisfactory%22%2C%22insufficient+quality+report%22%2C%22sponsor+acknowledged%22%2C%22sponsor+confirmed%22%2C%22sponsor+disputed%22+)
 
-### [High/Medium-risk findings for review →](../../issues?q=is%3Aopen+is%3Aissue+label%3A"2+(Med+Risk)"%2C"3+(High+Risk)"+-label%3A"unsatisfactory"%2C"insufficient+quality+report"%2C"sponsor+acknowledged"%2C"sponsor+confirmed"%2C"sponsor+disputed"+)
-<sup>The above list updates as you go. [See the original curated list →](../../issues?q=is%3Aopen+is%3Aissue+label%3A"2+(Med+Risk)"%2C"3+(High+Risk)"+-label%3A"unsatisfactory"%2C"insufficient+quality+report"%2C"sponsor+acknowledged"%2C"sponsor+confirmed"%2C"sponsor+disputed"+)</sup>
+<sup>The above list updates as you go. [See the original curated list →](https://www.notion.so/issues?q=is%3Aopen+is%3Aissue+label%3A%222+(Med+Risk)%22%2C%223+(High+Risk)%22+-label%3A%22unsatisfactory%22%2C%22insufficient+quality+report%22%2C%22sponsor+acknowledged%22%2C%22sponsor+confirmed%22%2C%22sponsor+disputed%22+)</sup>
 
 For each curated High or Medium risk finding, please:
 
-#### 1. label as one of the following:
+### label as one of the following:
 
 - `sponsor confirmed`, meaning: "Yes, this is a problem and we intend to fix it."
 - `sponsor disputed`, meaning either: "We cannot duplicate this issue" or "We disagree that this is an issue at all."
 - `sponsor acknowledged`, meaning: "Yes, technically the issue is correct, but we are not going to resolve it for xyz reasons."
 
-Note: Adding or changing labels other than those in this list will be automatically reverted by our bot, which will note the change in a comment on the issue. 
+Add any necessary comments explaining your rationale for your evaluation of the issue.
 
-Add any necessary comments explaining your rationale for your evaluation of the issue. 
+<details><summary>Notes on labeling and commenting (Expand)</summary>
+
+Note: Adding or changing labels other than those in this list will be automatically reverted by our bot, which will note the change in a comment on the issue.
 
 **Note that when the repo is public, after all issues are mitigated, wardens will read these comments; they may also be included in your C4 audit report.**
 
-#### 2. Weigh in on severity 
+</details>
 
-If you believe a finding is technically correct but disagree with the listed severity, leave a comment indicating your reasoning for the judge to review.
+### Weigh in on severity
+
+If you believe a finding is technically correct but disagree with the listed severity, **leave a comment indicating your reasoning** for the judge to review.
 For a detailed breakdown of severity criteria and how to estimate risk, please refer to the [judging criteria in our documentation](https://docs.code4rena.com/awarding/judging-criteria/severity-categorization).
 
 Judges have the ultimate discretion in determining validity and severity of issues, as well as whether/how issues are considered duplicates. However, sponsor input is a significant criterion.
 
-### [Reports for review →](../../issues?q=is%3Aopen+is%3Aissue+-label%3Aunsatisfactory+-label%3A%22insufficient+quality+report%22+-label%3A%22sponsor+acknowledged%22+-label%3A%22sponsor+confirmed%22+-label%3A%22sponsor+disputed%22+-label%3A%22judge+review+requested%22+label%3A%22QA+%28Quality+Assurance%29%22%2C%22G+%28Gas+Optimization%29%22%2C%22analysis-advanced%22+)
+## 2. Respond to curated reports list
+
+### [Reports for review →](https://www.notion.so/issues?q=is%3Aopen+is%3Aissue+-label%3Aunsatisfactory+-label%3A%22insufficient+quality+report%22+-label%3A%22sponsor+acknowledged%22+-label%3A%22sponsor+confirmed%22+-label%3A%22sponsor+disputed%22+-label%3A%22judge+review+requested%22+label%3A%22QA+%28Quality+Assurance%29%22%2C%22G+%28Gas+Optimization%29%22%2C%22analysis-advanced%22+)
+
 - Leave a comment for the judge on any reports you consider to be particularly high quality. (These reports will be awarded on a curve.)
 - For QA and Gas reports only: add the sponsor `disputed label` to any reports that you think should be completely disregarded by the judge, i.e. the report contains no valid findings at all.
 
-### Once labelling is complete
+## Once Step 1 and 2 are complete
 
-When you have finished labelling findings, drop the C4 team a note in your private Discord backroom channel and let us know you've completed the sponsor review process. At this point, we will pass the repo over to the judge to review your feedback while you work on mitigations.  
-
-## 2. Respond to curated reports list 
+When you have finished labeling and responding to findings, drop the C4 team a note in your private Discord backroom channel and let us know you've completed the sponsor review process. At this point, we will pass the repo over to the judge to review your feedback while you work on mitigations.
 
 ## 3. Share your mitigation of findings
 
@@ -81,6 +85,7 @@ When you have finished labelling findings, drop the C4 team a note in your priva
 For each finding you have confirmed, you will want to mitigate the issue before the contest report is made public.
 
 ### If you are planning a Code4rena mitigation review:
+
 1. In your own Github repo, create a branch based off of the commit you used for your Code4rena audit, then
 2. Create a separate Pull Request for each **High or Medium risk** C4 audit finding (e.g. one PR for finding H-01, another for H-02, etc.)
 3. Link the PR to the issue that it resolves within your contest findings repo.
@@ -93,6 +98,5 @@ If several findings are inextricably related (e.g. two potential exploits of the
 
 1. Within a repo in your own GitHub organization, create a pull request for each finding.
 2. Link the PR to the issue that it resolves within your contest findings repo.
-
 
 This will allow for complete transparency in showing the work of mitigating the issues found in the contest. If the issue in question has duplicates, please link to your PR from the open/primary issue.
