@@ -10,7 +10,7 @@ Unless otherwise discussed, this repo will be made public after audit completion
 
 # Review phase
 
-Sponsors have two critical tasks in the audit process: Reviewing the two lists of curated issues to review, which filter out unsatisfactory issues that don't require your attention, and once you have mitigated your findings, sharing those mitigations. 
+Sponsors have two critical tasks in the audit process: Reviewing the two lists of curated issues, and once you have mitigated your findings, sharing those mitigations. 
 
 1. [Respond to curated **issues** list ↓](https://www.notion.so/Org-Experience-Bandaid-Readme-fcb21c741e4841d78c87ca3c859eae02?pvs=21)
 2. [Respond to curated **reports** list ↓](https://www.notion.so/Org-Experience-Bandaid-Readme-fcb21c741e4841d78c87ca3c859eae02?pvs=21)
@@ -44,7 +44,7 @@ All warden submissions in these three categories are submitted as bulk listings 
 
 For each curated High or Medium risk finding, please:
 
-### label as one of the following:
+### 1a. label as one of the following:
 
 - `sponsor confirmed`, meaning: "Yes, this is a problem and we intend to fix it."
 - `sponsor disputed`, meaning either: "We cannot duplicate this issue" or "We disagree that this is an issue at all."
@@ -60,7 +60,7 @@ Note: Adding or changing labels other than those in this list will be automatica
 
 </details>
 
-### Weigh in on severity
+### 1b. Weigh in on severity
 
 If you believe a finding is technically correct but disagree with the listed severity, **leave a comment indicating your reasoning** for the judge to review.
 For a detailed breakdown of severity criteria and how to estimate risk, please refer to the [judging criteria in our documentation](https://docs.code4rena.com/awarding/judging-criteria/severity-categorization).
