@@ -1,3 +1,4 @@
+
 # [Sponsorname] Audit
 
 Audit findings are submitted to this repo.
@@ -7,14 +8,12 @@ Unless otherwise discussed, this repo will be made public after audit completion
 **Contributors to this repo:** prior to report publication, please review the [Agreements & Disclosures](/issues/1) issue.
 
 ---
-
 # Review phase 
 
-Sponsors have three critical tasks in the audit process:
-
-1. [Respond to issues ↓](#1-respond-to-issues)
-2. [Weigh in on severity ↓](#2-weigh-in-on-severity)
-3. [Share your mitigation of findings ↓](#3-share-your-mitigation-of-findings)
+Sponsors have two critical tasks in the audit process:
+<var>
+1. [Respond to curated issues ↓](#1-respond-to-curated-issues)
+2. [Share your mitigation of findings ↓](#2-share-your-mitigation-of-findings)
 
 <hr>
   <details>
@@ -34,11 +33,15 @@ All warden submissions in these three categories are submitted as bulk listings 
 </details>
 <hr>
 
-## 1. Respond to issues
+## 1. Respond to curated issues
+There are two lists of curated issues to review: 
+a. High/Medium-risk findings for review
+b. Reports for review 
 
-### [Findings for review →](../../issues?q=is%3Aopen+label%3Abug+is%3Aissue+-label%3Aunsatisfactory+-label%3A%22insufficient+quality+report%22+-label%3A%22sponsor+acknowledged%22+-label%3A%22sponsor+confirmed%22+-label%3A%22sponsor+disputed%22+-label%3A%22judge+review+requested%22+-label%3A%22QA+%28Quality+Assurance%29%22+-label%3A%22G+%28Gas+Optimization%29%22)
 
-For each High or Medium risk finding that appears [in this filtered issues view](../../issues?q=is%3Aopen+label%3Abug+is%3Aissue+-label%3Aunsatisfactory+-label%3A%22insufficient+quality+report%22+-label%3A%22sponsor+acknowledged%22+-label%3A%22sponsor+confirmed%22+-label%3A%22sponsor+disputed%22+-label%3A%22judge+review+requested%22+-label%3A%22QA+%28Quality+Assurance%29%22+-label%3A%22G+%28Gas+Optimization%29%22), please label as one of these:
+### [Findings for review →](../../issues?q=is%3Aopen+is%3Aissue+label%3A"2+(Med+Risk)"%2C"3+(High+Risk)"+-label%3A"unsatisfactory"%2C"insufficient+quality+report"%2C"sponsor+acknowledged"%2C"sponsor+confirmed"%2C"sponsor+disputed"+)
+
+For each High or Medium risk finding that appears [in this filtered issues view](../../issues?q=is%3Aopen+is%3Aissue+label%3A"2+(Med+Risk)"%2C"3+(High+Risk)"+-label%3A"unsatisfactory"%2C"insufficient+quality+report"%2C"sponsor+acknowledged"%2C"sponsor+confirmed"%2C"sponsor+disputed"+), please label as one of these:
 
 - `sponsor confirmed`, meaning: "Yes, this is a problem and we intend to fix it."
 - `sponsor disputed`, meaning either: "We cannot duplicate this issue" or "We disagree that this is an issue at all."
@@ -71,7 +74,7 @@ Judges have the ultimate discretion in determining validity and severity of issu
 
 When you have finished labelling findings, drop the C4 team a note in your private Discord backroom channel and let us know you've completed the sponsor review process. At this point, we will pass the repo over to the judge to review your feedback while you work on mitigations.  
 
-## 3. Share your mitigation of findings
+## 2. Share your mitigation of findings
 
 *Note: this section does not need to be completed in order to finalize judging. You can continue work on mitigations while the judge finalizes their decisions and even beyond that. Ultimately we won't publish the final audit report until you give us the OK.*
 
@@ -90,5 +93,6 @@ If several findings are inextricably related (e.g. two potential exploits of the
 
 1. Within a repo in your own GitHub organization, create a pull request for each finding.
 2. Link the PR to the issue that it resolves within your contest findings repo.
+
 
 This will allow for complete transparency in showing the work of mitigating the issues found in the contest. If the issue in question has duplicates, please link to your PR from the open/primary issue.
