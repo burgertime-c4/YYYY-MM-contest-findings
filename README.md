@@ -12,8 +12,9 @@ Unless otherwise discussed, this repo will be made public after audit completion
 
 Sponsors have two critical tasks in the audit process:
 <var>
-1. [Respond to curated issues list ↓](#1-respond-to-curated-issues-list)
-2. [Share your mitigation of findings ↓](#2-share-your-mitigation-of-findings)
+1. [Respond to curated **issues** list ↓](#1-respond-to-curated-issues-list)
+2. [Respond to curated **reports** list ↓](#2-respond-to-curated-reports-list)
+3. [Share your mitigation of findings ↓](#3-share-your-mitigation-of-findings)
 
 <hr>
   <details>
@@ -71,7 +72,9 @@ Judges have the ultimate discretion in determining validity and severity of issu
 
 When you have finished labelling findings, drop the C4 team a note in your private Discord backroom channel and let us know you've completed the sponsor review process. At this point, we will pass the repo over to the judge to review your feedback while you work on mitigations.  
 
-## 2. Share your mitigation of findings
+## 2. Respond to curated reports list 
+
+## 3. Share your mitigation of findings
 
 *Note: this section does not need to be completed in order to finalize judging. You can continue work on mitigations while the judge finalizes their decisions and even beyond that. Ultimately we won't publish the final audit report until you give us the OK.*
 
