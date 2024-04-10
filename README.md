@@ -13,7 +13,7 @@ Audit findings are submitted to this repo.
 
 Unless otherwise discussed, this repo will be made public after audit completion, sponsor review, judging, and issue mitigation window.
 
-**Contributors to this repo:** prior to report publication, please review the [Agreements & Disclosures](https://www.notion.so/issues/1) issue.
+**Contributors to this repo:** prior to report publication, please review the [Agreements & Disclosures](../../issues/1) issue.
 
 ---
 
@@ -21,7 +21,7 @@ Unless otherwise discussed, this repo will be made public after audit completion
 
 Sponsors have two critical tasks in the audit process: Reviewing the two lists of curated issues, and once you have mitigated your findings, sharing those mitigations. 
 
-1. [Respond to curated **issues** list ↓](#)
+1. [Respond to curated **issues** list ↓](#1-respond-to-curated-issues-list)
 2. [Respond to curated **reports** list ↓](#)
 3. [Share your mitigation of findings ↓](#)
 
