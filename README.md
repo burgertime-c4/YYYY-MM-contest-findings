@@ -12,7 +12,7 @@ Unless otherwise discussed, this repo will be made public after audit completion
 
 Sponsors have two critical tasks in the audit process:
 <var>
-1. [Respond to curated issues ↓](#1-respond-to-curated-issues)
+1. [Respond to curated issues list ↓](#1-respond-to-curated-issues-list)
 2. [Share your mitigation of findings ↓](#2-share-your-mitigation-of-findings)
 
 <hr>
@@ -33,15 +33,16 @@ All warden submissions in these three categories are submitted as bulk listings 
 </details>
 <hr>
 
-## 1. Respond to curated issues
-There are two lists of curated issues to review: 
-a. High/Medium-risk findings for review
-b. Reports for review 
+## 1. Respond to curated issues list
+There are two lists of curated issues to review, which filter out unsatisfactory issues that don't require your attention: 
 
+&nbsp;&nbsp;&nbsp;a. High/Medium-risk findings<br/>
+&nbsp;&nbsp;&nbsp;b. Reports
 
-### [Findings for review →](../../issues?q=is%3Aopen+is%3Aissue+label%3A"2+(Med+Risk)"%2C"3+(High+Risk)"+-label%3A"unsatisfactory"%2C"insufficient+quality+report"%2C"sponsor+acknowledged"%2C"sponsor+confirmed"%2C"sponsor+disputed"+)
+### [High/Medium-risk findings for review →](../../issues?q=is%3Aopen+is%3Aissue+label%3A"2+(Med+Risk)"%2C"3+(High+Risk)"+-label%3A"unsatisfactory"%2C"insufficient+quality+report"%2C"sponsor+acknowledged"%2C"sponsor+confirmed"%2C"sponsor+disputed"+)
+The above list updates as you go. [See the original curated list →](../../issues?q=is%3Aopen+is%3Aissue+label%3A"2+(Med+Risk)"%2C"3+(High+Risk)"+-label%3A"unsatisfactory"%2C"insufficient+quality+report"%2C"sponsor+acknowledged"%2C"sponsor+confirmed"%2C"sponsor+disputed"+)
 
-For each High or Medium risk finding that appears [in this filtered issues view](../../issues?q=is%3Aopen+is%3Aissue+label%3A"2+(Med+Risk)"%2C"3+(High+Risk)"+-label%3A"unsatisfactory"%2C"insufficient+quality+report"%2C"sponsor+acknowledged"%2C"sponsor+confirmed"%2C"sponsor+disputed"+), please label as one of these:
+For each curated High or Medium risk finding, please label as one of the following:
 
 - `sponsor confirmed`, meaning: "Yes, this is a problem and we intend to fix it."
 - `sponsor disputed`, meaning either: "We cannot duplicate this issue" or "We disagree that this is an issue at all."
