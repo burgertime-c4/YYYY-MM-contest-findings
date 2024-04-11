@@ -9,7 +9,7 @@
 - Reports - Updating list
 (../../issues?q=is%3Aopen+is%3Aissue+-label%3A"sponsor+acknowledged"%2C"sponsor+confirmed"%2C"sponsor+disputed"+label%3A"QA+(Quality+Assurance)"%2C"G+(Gas+Optimization)"%2C"analysis-advanced"+label%3A"grade-a"%2C"selected+for+report"%2C"high+quality+report")
 - Reports - Static list
-(../../issues?q=is%3Aopen+is%3Aissue+label%3A"QA+(Quality+Assurance)"%2C"G+(Gas+Optimization)"%2C"analysis-advanced"+label%3A"grade-a"%2C"selected+for+report"%2C"high+quality+report")
+(../../issues?q=is%3Aopen+is%3Aissue+label%3A"2+(Med+Risk)"%2C"3+(High+Risk)"+-label%3A"unsatisfactory"%2C"insufficient+quality+report")
 -->
 
 # [Sponsorname] Audit
@@ -28,9 +28,9 @@ Unless otherwise discussed, this repo will be made public after audit completion
 
 Sponsors have three critical tasks in the audit process: Reviewing the two lists of curated issues, and once you have mitigated your findings, sharing those mitigations. 
 
-1. [Respond to curated High- and Medium-risk submissions ↓](#1-respond-to-curated-issues-list)
-2. [Respond to curated Low/Non-critical submissions and Gas optimizations ↓](#)
-3. [Share your mitigation of findings (optional) ↓](#)
+1. [Respond to curated High- and Medium-risk submissions ↓](#1-respond-to-curated-high--and-medium-risk-submissions))
+2. [Respond to curated Low/Non-critical submissions and Gas optimizations ↓](#2-respond-to-curated-lownon-critical-submissions-and-gas-optimizations)
+3. [Share your mitigation of findings (optional) ↓](#3-share-your-mitigation-of-findings-optional)
 
 Note: It’s important to be sure to **only review issues from the curated lists.** There are two lists of curated issues to review, which filter out unsatisfactory issues that don't require your attention.
 
@@ -52,11 +52,11 @@ All warden submissions in these three categories are submitted as bulk listings 
 </details>
 <hr>
 
-## 1. Respond to curated issues list
+## 1. Respond to curated High- and Medium-risk submissions
 
-### [High/Medium-risk findings for review →](https://www.notion.so/issues?q=is%3Aopen+is%3Aissue+label%3A%222+(Med+Risk)%22%2C%223+(High+Risk)%22+-label%3A%22unsatisfactory%22%2C%22insufficient+quality+report%22%2C%22sponsor+acknowledged%22%2C%22sponsor+confirmed%22%2C%22sponsor+disputed%22+)
+### [High/Medium-risk findings for review →](../../issues?q=is%3Aopen+is%3Aissue+label%3A%222+(Med+Risk)%22%2C%223+(High+Risk)%22+-label%3A%22unsatisfactory%22%2C%22insufficient+quality+report%22%2C%22sponsor+acknowledged%22%2C%22sponsor+confirmed%22%2C%22sponsor+disputed%22+)
 
-<sup>This curated list will shorten as you work. [View the original, longer list →](https://www.notion.so/issues?q=is%3Aopen+is%3Aissue+label%3A%222+(Med+Risk)%22%2C%223+(High+Risk)%22+-label%3A%22unsatisfactory%22%2C%22insufficient+quality+report%22%2C%22sponsor+acknowledged%22%2C%22sponsor+confirmed%22%2C%22sponsor+disputed%22+)</sup>
+<sup>This curated list will shorten as you work. [View the original, longer list →](../../issues?q=is%3Aopen+is%3Aissue+label%3A"2+(Med+Risk)"%2C"3+(High+Risk)"+-label%3A"unsatisfactory"%2C"insufficient+quality+report")</sup>
 
 For each curated High or Medium risk finding, please:
 
@@ -80,11 +80,11 @@ For a detailed breakdown of severity criteria and how to estimate risk, please r
 
 Judges have the ultimate discretion in determining validity and severity of issues, as well as whether/how issues are considered duplicates. However, sponsor input is a significant criterion.
 
-## 2. Respond to curated reports list
+## 2. Respond to curated Low/Non-critical submissions and Gas optimizations
 
-### [Reports for review →](../../issues?q=is%3Aopen+is%3Aissue+-label%3Aunsatisfactory+-label%3A%22insufficient+quality+report%22+-label%3A%22sponsor+acknowledged%22+-label%3A%22sponsor+confirmed%22+-label%3A%22sponsor+disputed%22+-label%3A%22judge+review+requested%22+label%3A%22QA+%28Quality+Assurance%29%22%2C%22G+%28Gas+Optimization%29%22%2C%22analysis-advanced%22+)
+### [Low/Non-critical submissions and Gas optimizations for review →](../../issues?q=is%3Aopen+is%3Aissue+-label%3A"sponsor+acknowledged"%2C"sponsor+confirmed"%2C"sponsor+disputed"+label%3A"QA+(Quality+Assurance)"%2C"G+(Gas+Optimization)"%2C"analysis-advanced"+label%3A"grade-a"%2C"selected+for+report"%2C"high+quality+report")
 
-<sup>This curated list will shorten as you work. [View the original, longer list →](../../issues?q=is%3Aopen+is%3Aissue+label%3A%222+(Med+Risk)%22%2C%223+(High+Risk)%22+-label%3A%22unsatisfactory%22%2C%22insufficient+quality+report%22%2C%22sponsor+acknowledged%22%2C%22sponsor+confirmed%22%2C%22sponsor+disputed%22+)</sup>
+<sup>This curated list will shorten as you work. [View the original, longer list →](../../issues?q=is%3Aopen+is%3Aissue+label%3A"QA+(Quality+Assurance)"%2C"G+(Gas+Optimization)"%2C"analysis-advanced"+label%3A"grade-a"%2C"selected+for+report"%2C"high+quality+report")</sup>
 
 - Leave a comment for the judge on any reports you consider to be particularly high quality. (These reports will be awarded on a curve.)
 - For QA and Gas reports only: add the sponsor `disputed label` to any reports that you think should be completely disregarded by the judge, i.e. the report contains no valid findings at all.
@@ -93,7 +93,7 @@ Judges have the ultimate discretion in determining validity and severity of issu
 
 When you have finished labeling and responding to findings, drop the C4 team a note in your private Discord backroom channel and let us know you've completed the sponsor review process. At this point, we will pass the repo over to the judge to review your feedback while you work on mitigations.
 
-## 3. Share your mitigation of findings
+## 3. Share your mitigation of findings (Optional)
 
 *Note: this section does not need to be completed in order to finalize judging. You can continue work on mitigations while the judge finalizes their decisions and even beyond that. Ultimately we won't publish the final audit report until you give us the OK.*
 
