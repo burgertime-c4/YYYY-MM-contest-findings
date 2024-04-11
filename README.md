@@ -68,9 +68,6 @@ For each curated High or Medium risk finding, please:
 
 Add any necessary comments explaining your rationale for your evaluation of the issue.
 
-
-
-
 Note: Adding or changing labels other than those in this list will be automatically reverted by our bot, which will note the change in a comment on the issue.
 
 ### 1b. Weigh in on severity
@@ -79,6 +76,8 @@ If you believe a finding is technically correct but disagree with the listed sev
 For a detailed breakdown of severity criteria and how to estimate risk, please refer to the [judging criteria in our documentation](https://docs.code4rena.com/awarding/judging-criteria/severity-categorization).
 
 Judges have the ultimate discretion in determining validity and severity of issues, as well as whether/how issues are considered duplicates. However, sponsor input is a significant criterion.
+
+<hr>
 
 ## 2. Respond to curated Low/Non-critical submissions and Gas optimizations
 
@@ -92,6 +91,9 @@ Judges have the ultimate discretion in determining validity and severity of issu
 ## Once Step 1 and 2 are complete
 
 When you have finished labeling and responding to findings, drop the C4 team a note in your private Discord backroom channel and let us know you've completed the sponsor review process. At this point, we will pass the repo over to the judge to review your feedback while you work on mitigations.
+
+
+<hr>
 
 ## 3. Share your mitigation of findings (Optional)
 
