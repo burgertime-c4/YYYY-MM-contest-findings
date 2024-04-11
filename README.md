@@ -19,7 +19,7 @@ Unless otherwise discussed, this repo will be made public after audit completion
 
 # Review phase
 
-Sponsors have two critical tasks in the audit process: Reviewing the two lists of curated issues, and once you have mitigated your findings, sharing those mitigations. 
+Sponsors have three critical tasks in the audit process: Reviewing the two lists of curated issues, and once you have mitigated your findings, sharing those mitigations. 
 
 1. [Respond to curated **issues** list ↓](#1-respond-to-curated-issues-list)
 2. [Respond to curated **reports** list ↓](#)
