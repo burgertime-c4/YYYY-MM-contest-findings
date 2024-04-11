@@ -28,7 +28,7 @@ Unless otherwise discussed, this repo will be made public after audit completion
 
 Sponsors have three critical tasks in the audit process: Reviewing the two lists of curated issues, and once you have mitigated your findings, sharing those mitigations. 
 
-1. [Respond to curated High- and Medium-risk submissions ↓](#1-respond-to-curated-high--and-medium-risk-submissions))
+1. [Respond to curated High- and Medium-risk submissions ↓](#1-respond-to-curated-high--and-medium-risk-submissions)
 2. [Respond to curated Low/Non-critical submissions and Gas optimizations ↓](#2-respond-to-curated-lownon-critical-submissions-and-gas-optimizations)
 3. [Share your mitigation of findings (optional) ↓](#3-share-your-mitigation-of-findings-optional)
 
