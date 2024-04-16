@@ -20,7 +20,7 @@ Unless otherwise discussed, this repo will be made public after audit completion
 
 **Contributors to this repo:** prior to report publication, please review the [Agreements & Disclosures](../../issues/1) issue.
 
-**Note that when the repo is public, after all issues are mitigated, Wardens will read these comments; they may also be included in your C4 audit report.**
+**Note that when the repo is public, after all issues are mitigated, your comments will be publicly visible; they may also be included in your C4 audit report.**
 
 ---
 
@@ -44,7 +44,7 @@ Wardens submit issues without seeing each other's submissions, so keep in mind t
 
 ### QA reports, Gas reports, and Analyses
 
-All warden submissions in these three categories are submitted as bulk listings of issues and recommendations:
+Any warden submissions in these three categories are submitted as bulk listings of issues and recommendations:
 
 - **[QA reports](https://docs.code4rena.com/roles/wardens/judging-criteria#qa-reports-low-non-critical)** include *all* low severity and non-critical findings from an individual warden.
 - **[Gas reports](https://docs.code4rena.com/roles/wardens/judging-criteria#gas-reports)** include *all* gas optimization recommendations from an individual warden.
